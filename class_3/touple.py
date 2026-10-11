@@ -33,7 +33,17 @@ print(input_tuple[1])
 print(input_tuple[::-1])
 print(input_tuple[-1])
 
+
 # Real Life uses:
+eiffel_tower_location = (48.8584, 2.2945)
+
+# 2. Access the data using indexing
+latitude = eiffel_tower_location[0]
+longitude = eiffel_tower_location[1]
+
+print(f"The Eiffel Tower is located at Latitude: {latitude} and Longitude: {longitude}")
+
+# another example:
 designation = ("Software Engineer", "Data Scientist", "Data Analyst")
 
 for i in designation:
