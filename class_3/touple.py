@@ -29,7 +29,7 @@
 
 input_tuple = (1, 2, 3, 4, 5)
 
-print(input_tuple[1])
+print(input_tuple[-2])
 print(input_tuple[::-1])
 print(input_tuple[1:3])
 print(input_tuple[-1])
