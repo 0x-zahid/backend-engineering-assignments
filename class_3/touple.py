@@ -29,11 +29,13 @@
 
 input_tuple = (1, 2, 3, 4, 5)
 full_sliced = input_tuple[:]
+partial_sliced = input_tuple[2:4]
 print(input_tuple[-2])
 print(input_tuple[::-1])
 print(input_tuple[1:3])
 print(input_tuple[-1])
-
+print(partial_sliced)
+print(full_sliced)
 
 # Real Life uses:
 eiffel_tower_location = (48.8584, 2.2945)
