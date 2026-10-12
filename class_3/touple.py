@@ -28,7 +28,7 @@
 # print(original is sliced)          # Output: False
 
 input_tuple = (1, 2, 3, 4, 5)
-
+full_sliced = input_tuple[:]
 print(input_tuple[-2])
 print(input_tuple[::-1])
 print(input_tuple[1:3])
