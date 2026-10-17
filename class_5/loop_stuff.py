@@ -20,3 +20,12 @@ another_list = [10, 20, 30, 40, 50]
 for item in another_list:
     print(f"{item}")
 
+
+# while loop
+
+new_list = [3, 2, 1, 5, 6]
+i = 0
+while i < len(new_list):
+    print(f"{new_list[i]}")
+    i += 1
+
